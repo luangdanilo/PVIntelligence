@@ -154,12 +154,24 @@ a.grid_link {
 
 .pharma_table{
   width:100%;
-  border:1px solid #ccc;
 }
 
-.pharma_table tr th,.pharma_table tr td{
-  border:1px solid #ccc;
-  font-size:11px;
-  text-align:center;
+.pharma_table tr th{
+  font-size:14px;
   padding: 5px;
+}
+
+.pharma_table tr td{
+  font-size:11px;
+  text-align:left;
+  padding: 5px;
+}
+
+.btn {
+  font-size: 12px !important;
+}
+
+.table_flag{
+  height:13px;
+  width:19px;
 }
