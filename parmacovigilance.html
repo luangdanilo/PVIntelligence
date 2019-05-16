@@ -242,95 +242,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="national-RPP-PSMF-requirements" role="tabpanel" aria-labelledby="national-RPP-PSMF-requirements-tab">
-                            <div class="mt-2">   
-                                <button type="button" class="btn btn-success">RMP requirement</button>
-                                <button type="button" class="btn btn-light">RMP Status per region</button>
-                                <button type="button" class="btn btn-light">RMP Type</button>
-                                <button type="button" class="btn btn-light">RMP Format</button>
-                                
-                                <br/><br/>
-                                <h3>Risk Management Plan Requirements</h3>
-                                <br/>
-                                <table class="table table-hover pharma_table">
-                                  <thead>
-                                    <tr>
-                                      <th>Region</th>
-                                      <th style="min-width:100px">Country</th>
-                                      <th>Risk Management Plan Required</th>
-                                      <th>Type of Risk Management Plan</th>
-                                      <th>Risk Management Plan Format</th>
-                                      <th>Summary RMP - Public</th>
-                                      <th>Comments</th>
-                                      <th>Date of Review at Global</th>
-                                      <th>Local Confirmation/Validation Date</th>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                      <td>Africa, Middle East & Eurasia</td>
-                                      <td><img src="img/flags/af.png" class="table_flag"/> Afghanistan</td>
-                                      <td>NO</td>
-                                      <td>NA</td>
-                                      <td>NA</td>
-                                      <td>NA</td>
-                                      <td></td>
-                                      <td>1-Aug-2016</td>
-                                      <td></td>
-                                    </tr>
-                                    <tr>
-                                      <td>Europe non EEA</td>
-                                      <td><img src="img/flags/al.png" class="table_flag"/> Albania</td>
-                                      <td>NO</td>
-                                      <td>NA</td>
-                                      <td>NA</td>
-                                      <td>NA</td>
-                                      <td></td>
-                                      <td>19-Apr-2015</td>
-                                      <td>15-Jun-2015</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Europe non EEA</td>
-                                      <td><img src="img/flags/dz.png" class="table_flag"/> Algeria</td>
-                                      <td>NO</td>
-                                      <td>NA</td>
-                                      <td>NA</td>
-                                      <td>NA</td>
-                                      <td></td>
-                                      <td>19-Apr-2015</td>
-                                      <td>No answer</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Europe non EEA</td>
-                                      <td><img src="img/flags/ao.png" class="table_flag"/> Angola</td>
-                                      <td>NO</td>
-                                      <td>NA</td>
-                                      <td>NA</td>
-                                      <td>NA</td>
-                                      <td></td>
-                                      <td>19-Apr-2015</td>
-                                      <td>No answer</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Americas</td>
-                                      <td><img src="img/flags/ar.png" class="table_flag"/> Argentina</td>
-                                      <td>YES</td>
-                                      <td>RMP</td>
-                                      <td>Local Format (e.g. EU old format)</td>
-                                      <td>NO</td>
-                                      <td>"RMP in local format required with the application for authorization of:<br/>
-                                        - new active pharmaceutical ingredient <br/>
-                                        - a biologic product, included vaccines<br/>
-                                        - a similar product for which the reference product requires RMP activities <br/>
-                                        -a fixed association without marketing evidence in a list of countries<br/>
-                                        - upon HA request <br/>
-                                        - a product to be registered upon special circumstances (e.g. orphan drug)<br/>
-                                        - in case of significant changes to the medicinal product (new dosage, indication) "
-                                        </td>
-                                      <td>19-Apr-2015</td>
-                                      <td>15-Jun-2015</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
+                            <div class="mt-2"> 
                             </div>
                         </div>
                         <div class="tab-pane fade" id="national-RPP-PSMF-requirements" role="tabpanel"
@@ -360,7 +272,176 @@
                         <div class="tab-pane fade" id="national-rmp-requirements" role="tabpanel"
                             aria-labelledby="national-rmp-requirements-tab">
                             <div class="mt-2">
-                                National RMP requirements
+                                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                            <li class="nav-item success">
+                                                <a class="nav-link active" id="pills-requirement-tab" data-toggle="pill" href="#pills-requirement" role="tab" aria-controls="pills-requirement" aria-selected="true">RMP requirement</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="pills-Status-tab" data-toggle="pill" href="#pills-Status" role="tab" aria-controls="pills-Status" aria-selected="false">RMP Status per region</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="pills-Type-tab" data-toggle="pill" href="#pills-Type" role="tab" aria-controls="pills-Type" aria-selected="false">RMP Type</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="pills-Format-tab" data-toggle="pill" href="#pills-Format" role="tab" aria-controls="pills-Format" aria-selected="false">RMP Format</a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content" id="pills-tabContent">
+                                            <div class="tab-pane fade show active" id="pills-requirement" role="tabpanel" aria-labelledby="pills-requirement-tab">
+    
+                                                    <h3>Risk Management Plan Requirements</h3>
+                                                    <br/>
+                                                    <table class="table table-hover pharma_table">
+                                                      <thead>
+                                                        <tr>
+                                                          <th>Region</th>
+                                                          <th style="min-width:100px">Country</th>
+                                                          <th>Risk Management Plan Required</th>
+                                                          <th>Type of Risk Management Plan</th>
+                                                          <th>Risk Management Plan Format</th>
+                                                          <th>Summary RMP - Public</th>
+                                                          <th>Comments</th>
+                                                          <th>Date of Review at Global</th>
+                                                          <th>Local Confirmation/Validation Date</th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>
+                                                          <td>Africa, Middle East & Eurasia</td>
+                                                          <td><img src="img/flags/af.png" class="table_flag"/> Afghanistan</td>
+                                                          <td>NO</td>
+                                                          <td>NA</td>
+                                                          <td>NA</td>
+                                                          <td>NA</td>
+                                                          <td></td>
+                                                          <td>1-Aug-2016</td>
+                                                          <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>Europe non EEA</td>
+                                                          <td><img src="img/flags/al.png" class="table_flag"/> Albania</td>
+                                                          <td>NO</td>
+                                                          <td>NA</td>
+                                                          <td>NA</td>
+                                                          <td>NA</td>
+                                                          <td></td>
+                                                          <td>19-Apr-2015</td>
+                                                          <td>15-Jun-2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>Europe non EEA</td>
+                                                          <td><img src="img/flags/dz.png" class="table_flag"/> Algeria</td>
+                                                          <td>NO</td>
+                                                          <td>NA</td>
+                                                          <td>NA</td>
+                                                          <td>NA</td>
+                                                          <td></td>
+                                                          <td>19-Apr-2015</td>
+                                                          <td>No answer</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>Europe non EEA</td>
+                                                          <td><img src="img/flags/ao.png" class="table_flag"/> Angola</td>
+                                                          <td>NO</td>
+                                                          <td>NA</td>
+                                                          <td>NA</td>
+                                                          <td>NA</td>
+                                                          <td></td>
+                                                          <td>19-Apr-2015</td>
+                                                          <td>No answer</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>Americas</td>
+                                                          <td><img src="img/flags/ar.png" class="table_flag"/> Argentina</td>
+                                                          <td>YES</td>
+                                                          <td>RMP</td>
+                                                          <td>Local Format (e.g. EU old format)</td>
+                                                          <td>NO</td>
+                                                          <td>"RMP in local format required with the application for authorization of:<br/>
+                                                            - new active pharmaceutical ingredient <br/>
+                                                            - a biologic product, included vaccines<br/>
+                                                            - a similar product for which the reference product requires RMP activities <br/>
+                                                            -a fixed association without marketing evidence in a list of countries<br/>
+                                                            - upon HA request <br/>
+                                                            - a product to be registered upon special circumstances (e.g. orphan drug)<br/>
+                                                            - in case of significant changes to the medicinal product (new dosage, indication) "
+                                                            </td>
+                                                          <td>19-Apr-2015</td>
+                                                          <td>15-Jun-2015</td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-Status" role="tabpanel" aria-labelledby="pills-Status-tab">
+                                                    <table class="table table-hover pharma_table">
+                                                      <thead>
+                                                        <tr>
+                                                          <th>Region</th>
+                                                          <th>YES</th>
+                                                          <th>Upon request</th>
+                                                          <th>Planned</th>
+                                                          <th>NO</th>
+                                                          <th>Total général</th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>
+                                                          <td>Europe EEA</td>
+                                                          <td>31</td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td></td>
+                                                          <td>31</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Europe non EEA</td>
+                                                            <td>4</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td>4</td>
+                                                            <td>8</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Africa, Middle East & Eurasia</td>
+                                                            <td>24</td>
+                                                            <td>5</td>
+                                                            <td>3</td>
+                                                            <td>50</td>
+                                                            <td>82</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Americas</td>
+                                                            <td>12</td>
+                                                            <td>5</td>
+                                                            <td></td>
+                                                            <td>14</td>
+                                                            <td>31</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Asia, China & JPAC</td>
+                                                            <td>12</td>
+                                                            <td>1</td>
+                                                            <td>1</td>
+                                                            <td>10</td>
+                                                            <td>24</td>
+                                                        </tr>
+                                                        <tr class="table-secondary bold">
+                                                            <td>Total général</td>
+                                                            <td>83</td>
+                                                            <td>11</td>
+                                                            <td>4</td>
+                                                            <td>78</td>
+                                                            <td>176</td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+
+                                                    <img src="/img/RMPStatus.JPG" />
+    
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-Type" role="tabpanel" aria-labelledby="pills-Type-tab">...</div>
+                                            <div class="tab-pane fade" id="pills-Format" role="tabpanel" aria-labelledby="pills-Format-tab">...</div>
+                                        </div>
                             </div>
                         </div>
                     </div>
