@@ -148,6 +148,10 @@ a.grid_link {
   text-decoration: none !important;
 }
 
+#dtHorizontal{
+  width: 200em;
+}
+
 /* Danilo */
 
 .pharma_table{
