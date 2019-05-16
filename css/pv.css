@@ -182,6 +182,7 @@ a.grid_link {
 
 .nav-pills .nav-link:hover{
   background-color:#e2e6ea !important;
+  color: #000;
 }
 
 .bold{
