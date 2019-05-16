@@ -152,6 +152,11 @@ a.grid_link {
   width: 200em;
 }
 
+.bg-blueopal {
+  background-color: #D9ECF5 !important;
+  border-color:  #a3d0e4!important;
+}
+
 /* Danilo */
 
 .pharma_table{
