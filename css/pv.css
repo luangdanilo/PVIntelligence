@@ -134,6 +134,20 @@ a.grid_link {
   text-decoration: none;
 }
 
+
+.btn.btn-link {
+  font-weight: 600 !important;
+  font-size: .9rem !important;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.btn.btn-link:focus,
+.btn.btn-link:hover {
+  color: #0056b3;
+  text-decoration: none !important;
+}
+
 /* Danilo */
 
 .pharma_table{
