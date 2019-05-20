@@ -15,7 +15,7 @@ html, body {
   #container {
     min-height:100%;
     position:relative;
-    background-color: #fff;
+    background-color:#EFEFEF;
     padding-bottom: 90px;
     height: 100%;
 }
@@ -38,6 +38,14 @@ html, body {
 
 .tab-content div.active{
     height: 100%;
+}
+
+.card-header{
+    border:none !important;
+}
+
+.card{
+    border:none !important;
 }
 
 
