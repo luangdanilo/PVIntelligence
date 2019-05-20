@@ -21,6 +21,10 @@
   background-color: rgba(255,255,255,.1);
 }
 
+.nav-link {
+  color: #157ab5 !important;
+}
+
 a:hover.grid_link,
 a.grid_link {
     color: #fff;
@@ -104,6 +108,12 @@ a.grid_link {
   padding: 4rem 0!important;
 }
 
+.bg-blueopal {
+  background-color: #d9edf7!important;
+  border-color: #bce8f1!important;
+  color: #3a87ad;
+}
+
 .bg-emerald {
     background-color: #2ecc71 !important;
 }
@@ -134,9 +144,7 @@ a.grid_link {
   text-decoration: none;
 }
 
-
 .btn.btn-link {
-  font-weight: 600 !important;
   font-size: .9rem !important;
   text-transform: uppercase;
   text-align: left;
@@ -144,18 +152,22 @@ a.grid_link {
 
 .btn.btn-link:focus,
 .btn.btn-link:hover {
-  color: #0056b3;
-  text-decoration: none !important;
+  color: #157ab5;
+  text-decoration: underline;
 }
 
 #dtHorizontal{
   width: 200em;
 }
 
-.bg-blueopal {
-  background-color: #D9ECF5 !important;
-  border-color:  #a3d0e4!important;
+.accordion .list-group-item {
+  border: 0;
+  background-color: transparent;
+  padding: .25rem;
+  font-size: 12px;
+  text-transform: uppercase !important;
 }
+
 
 /* Danilo */
 
@@ -189,6 +201,7 @@ a.grid_link {
 
 .nav-pills .nav-link.active{
   background-color: #28a745 !important;
+   color: #fff !important;
   font-size: 12px;
 }
 
