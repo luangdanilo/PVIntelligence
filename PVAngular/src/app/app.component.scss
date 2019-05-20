@@ -2,18 +2,21 @@
 #body {
     padding:20px;
     padding-bottom:60px;   /* Height of the footer */
-    height: 93% !important;
+    // height: 100% !important;
  }
 #footer {
-    position:absolute;
+    // position:absolute;
     bottom:0;
     width:100%;
-    height:45px;   /* Height of the footer */
     padding: 15px;
-    background:#525CA3;
     text-align: center;
-    color: #fff;
 }
+
+
+.bg-darkblue {
+    background-color: #525CA3;
+    color: #fff;
+  }
 
 .header{
     background-color: #525CA3;
