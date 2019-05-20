@@ -27,20 +27,29 @@ html, body {
     overflow: scroll;
 }
 
+#dtHorizontal {
+    width: 200em;
+    overflow: scroll;
+}
+
 
 .tab-content div.active{
     height: 100%;
 }
 
-.card-header{
-    border:none !important;
-}
+// .card-header{
+//     border:none !important;
+// }
 
-.card{
-    border:none !important;
-}
+// .card{
+//     border:none !important;
+// }
 
-
+.bg-blueopal {
+    background-color: #d9edf7!important;
+    border-color: #bce8f1!important;
+    color: #3a87ad;
+  }
 
 
  /*  Custom Scroll */
@@ -68,17 +77,20 @@ body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-thumb {
 
 
 /* total width */
+#dtHorizontal::-webkit-scrollbar,
 #nav-tabContent::-webkit-scrollbar{
     background-color:#fff;
     width:16px
 }
 
 /* background of the scrollbar except button or resizer */
+#dtHorizontal::-webkit-scrollbar,
 #nav-tabContent::-webkit-scrollbar {
     background-color:#fff
 }
 
 /* scrollbar itself */
+#dtHorizontal::-webkit-scrollbar,
 #nav-tabContent::-webkit-scrollbar{
     background-color:#eee;
     border-radius:16px;
