@@ -1,3 +1,9 @@
+.contacts_div{
+    background-color: #fff; width: 400px; float: right; margin-left: 20px; height: 100%;
+    padding: 20px; border-radius: 10px;
+    overflow-y: scroll;
+}
+
 .tile{
     color: #fff; width: 152px; height: 155px; text-align: center; overflow: hidden;
     margin: 5px 10px; float: left; border-radius: 10px;
@@ -46,4 +52,16 @@
 
 .db{
     background-color: #2B579A;
+}
+
+#contacts img{
+    height:45px; width:45px; border-radius: 50px; float: left;
+}
+
+.c_details{
+    margin-left:10px; float: left;
+}
+
+.c_details font{
+    font-size:11px; color:#777
 }
