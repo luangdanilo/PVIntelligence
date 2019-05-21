@@ -28,7 +28,28 @@ html, body {
 }
 
 .nav-link, .nav-link.active{
-  padding: 10px;
+  /*padding: 10px;*/
+}
+
+.navbar-nav li.active a{
+  border-bottom: 3px solid #525CA3
+}
+
+.navbar-nav li a{
+  padding: 10px 10px !important;
+}
+
+.default-color{
+  color: #525CA3 ;
+}
+
+#titleandnav .row .col-md-8{
+  padding-right: 0px !important;
+}
+
+#titleandnav .row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 
 
