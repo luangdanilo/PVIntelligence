@@ -22,10 +22,15 @@ html, body {
 #nav-tabContent{
     padding:10px;
     border: 1px solid #dee2e6; border-top:none;
-    height:97%;
+    height:95%;
     background-color: #fff !important;
     overflow: scroll;
 }
+
+.nav-link, .nav-link.active{
+  padding: 10px;
+}
+
 
 #dtHorizontal {
     width: 200em;
@@ -105,6 +110,7 @@ body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-thumb {
     border-radius:16px;
     border:4px solid #fff
 }
+
 
 
 /* set button(top and bottom of the scrollbar) 
