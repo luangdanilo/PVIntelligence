@@ -35,14 +35,15 @@
 }
 
 .banner{
-    height: 100px;
+    min-height: 100px;
     /*background-color: rgb(242, 244, 255);*/
     background-color: #fff;
     padding: 10px;
+    overflow: hidden;
 }
 
 .title{
-    margin-left:20px;
+    margin-left:10px;
     padding-top: 10px;
 }
 
