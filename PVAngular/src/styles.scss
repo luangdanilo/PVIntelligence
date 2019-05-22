@@ -33,11 +33,13 @@ html, body {
 }
 
 .navbar-nav li.active a{
-  border-bottom: 3px solid #525CA3
+  border-bottom: 3px solid #525CA3;
+  font-weight: bold;
 }
 
 .navbar-nav li a{
-  padding: 10px 10px !important;
+  padding: 20px 10px !important;
+  font-size: 13px;
 }
 
 .default-color{

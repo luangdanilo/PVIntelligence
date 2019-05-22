@@ -12,6 +12,7 @@ import { OtcComponent } from './otc/otc.component';
 import { RegulatoryTextComponent } from './regulatory-text/regulatory-text.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AdministrationComponent } from './administration/administration.component';
+import { NutrivigilanceComponent } from './nutrivigilance/nutrivigilance.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AdministrationComponent } from './administration/administration.compone
     OtcComponent,
     RegulatoryTextComponent,
     DashboardComponent,
-    AdministrationComponent
+    AdministrationComponent,
+    NutrivigilanceComponent
   ],
   imports: [
     BrowserModule,
