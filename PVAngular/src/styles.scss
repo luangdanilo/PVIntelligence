@@ -20,9 +20,9 @@ html, body {
 }
  
 #nav-tabContent{
-    padding:10px;
+    padding:10px 20px;
     border: 1px solid #dee2e6; border-top:none;
-    height:95%;
+    height:96%;
     background-color: #fff !important;
     overflow: scroll;
 }
@@ -52,6 +52,11 @@ html, body {
   margin-left: 0 !important;
 }
 
+#myTab li a{
+  color:#555;
+}
+
+
 
 #dtHorizontal {
     width: 200em;
@@ -72,7 +77,6 @@ html, body {
 
 .card{
     // border:none !important;
-    margin-bottom: 20px;
     overflow: hidden;
 }
 
