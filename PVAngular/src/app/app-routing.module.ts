@@ -9,12 +9,14 @@ import { OtcComponent } from './otc/otc.component';
 import { RegulatoryTextComponent } from './regulatory-text/regulatory-text.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AdministrationComponent } from './administration/administration.component';
+import { NutrivigilanceComponent } from './nutrivigilance/nutrivigilance.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'pharmacovigilance', component: PharmacovigilanceComponent },
   { path: 'prac', component: PracComponent },
   { path: 'medical-device-vigilance', component: MedicalDeviceVigilanceComponent },
+  { path: 'nitrivigilance', component: NutrivigilanceComponent },
   { path: 'cosmetovigilance', component: CosmetovigilanceComponent },
   { path: 'otc', component: OtcComponent },
   { path: 'regulatory-text', component: RegulatoryTextComponent },
