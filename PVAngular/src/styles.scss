@@ -79,10 +79,8 @@ html, body {
 }
 
 .card{
-    // border:none !important;
     overflow: hidden;
 }
-
 
 .list-group-item{
     border-color: #eee;
@@ -123,21 +121,6 @@ html, body {
     text-transform: uppercase !important;
   }
 
-  .pharma_table tr th {
-    font-size: 14px;
-    padding: 5px;
-}
-
-  .pharma_table tr td {
-    font-size: 11px;
-    text-align: left;
-    padding: 5px;
-}
-
-.pharma_table .table_flag {
-    height: 13px;
-    width: 19px;
-}
   .card-body a {
     color: #fff;
     font-size: 15px;
@@ -202,12 +185,9 @@ body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-button,*/
 
 /* Danilo */
 
-.pharma_table{
-    width:100%;
-  }
-  
+ 
   .pharma_table tr th{
-    font-size:14px;
+    font-size:11px;
     padding: 5px;
   }
   
