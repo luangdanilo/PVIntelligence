@@ -91,6 +91,60 @@ html, body {
     background-color: rgb(241, 242, 252) !important;
     border-color: rgb(241, 242, 252) !important;
     color: #3a87ad;
+    padding-top: 5px;
+  }
+
+  .bg-emerald {
+    background-color: #2ecc71 !important;
+}
+
+.bg-alizarin {
+    background-color: #e74c3c !important;
+}
+
+.bg-wisteria {
+    background-color: #8e44ad!important;
+}
+
+.bg-greensea {
+    background-color: #16a085!important;
+}
+
+.bg-pumpkin {
+    background-color: #d35400!important;
+}
+
+.accordion .list-group-item {
+    border: 0;
+    background-color: transparent;
+    padding: .25rem;
+    font-size: 12px;
+    text-transform: uppercase !important;
+  }
+
+  .pharma_table tr th {
+    font-size: 14px;
+    padding: 5px;
+}
+
+  .pharma_table tr td {
+    font-size: 11px;
+    text-align: left;
+    padding: 5px;
+}
+
+.pharma_table .table_flag {
+    height: 13px;
+    width: 19px;
+}
+  .card-body a {
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .card-body a:hover {
+    color: #fff;
+    text-decoration: none;
   }
 
 
