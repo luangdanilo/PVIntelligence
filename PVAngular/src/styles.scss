@@ -37,7 +37,7 @@ html, body {
   font-weight: bold;
 }
 
-.navbar-nav li a{
+.navbar-nav li a.nav-link{
   padding: 20px 10px !important;
   font-size: 13px;
 }
@@ -90,7 +90,7 @@ html, body {
     background-color: rgb(241, 242, 252) !important;
     border-color: rgb(241, 242, 252) !important;
     color: #3a87ad;
-    padding-top: 5px;
+    /*padding-top: 5px;*/
   }
 
   .bg-emerald {
