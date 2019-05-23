@@ -1,241 +1,347 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body {
-    background-color: #EFEFEF;
-    margin: 0; padding: 0;
-    /*font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif !important;*/
-    font-family: "Open Sans", Helvetica, Verdana, Tahoma, sans-serif !important;
-    font-size: 0.95rem;
-    line-height: 1.42857143;
-    color: #000;
-    height: 100% !important;
-    width: 100%;
-  }
-
-  #container {
-    min-height:100%;
-    position:relative;
-    background-color:#EFEFEF;
-    height: 100% !important;
-}
- 
-#nav-tabContent{
-    padding:10px 20px;
-    border: 1px solid #dee2e6; border-top:none;
-    height:96%;
-    background-color: #fff !important;
-    overflow-y: scroll;
-
+  background-color: #EFEFEF;
+  margin: 0;
+  padding: 0;
+  /*font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif !important;*/
+  font-family: "Open Sans", Helvetica, Verdana, Tahoma, sans-serif !important;
+  font-size: 0.95rem;
+  line-height: 1.42857143;
+  color: #000;
+  height: 100% !important;
+  width: 100%;
 }
 
-.nav-link, .nav-link.active{
+#container {
+  min-height: 100%;
+  position: relative;
+  background-color: #EFEFEF;
+  height: 100% !important;
+}
+
+#nav-tabContent {
+  padding: 10px 20px;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  height: 96%;
+  background-color: #fff !important;
+  overflow-y: scroll;
+}
+
+.nav-link {
   /*padding: 10px;*/
+  &.active {
+    /*padding: 10px;*/
+  }
 }
 
-.navbar-nav li.active a{
-  border-bottom: 3px solid #525CA3;
-  font-weight: bold;
+.navbar-nav li {
+  &.active a {
+    border-bottom: 3px solid #525CA3;
+    font-weight: bold;
+  }
+  a.nav-link {
+    padding: 20px 9px !important;
+    font-size: 13px;
+  }
 }
 
-.navbar-nav li a.nav-link{
-  padding: 20px 9px !important;
-  font-size: 13px;
+.default-color {
+  color: #525CA3;
 }
 
-.default-color{
-  color: #525CA3 ;
-}
-
-#titleandnav .row .col-md-8{
-  padding-right: 0px !important;
-}
-
-#titleandnav .row{
+#titleandnav .row {
+  .col-md-8 {
+    padding-right: 0px !important;
+  }
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
 
-#myTab li a{
-  color:#555;
+#myTab li a {
+  color: #555;
 }
-
-
 
 #dtHorizontal {
-    width: 200em;
-    overflow: scroll;
+  width: 200em;
+  overflow: scroll;
 }
 
-
-.tab-content div.active{
-    height: 100%;
+.tab-content div.active {
+  height: 100%;
 }
 
-.card-header{
-    color:#333;
-    background-color: rgb(241, 242, 252);
-    /*background-color: #525CA3;*/
-    border-color: #eee;
+.card-header {
+  color: #333;
+  background-color: rgb(241, 242, 252);
+  /*background-color: #525CA3;*/
+  border-color: #eee;
 }
 
-.card{
-    overflow: hidden;
+.card {
+  overflow: hidden;
 }
 
-.list-group-item{
-    border-color: #eee;
+.list-group-item {
+  border-color: #eee;
 }
 
 .bg-blueopal {
-    background-color: rgb(241, 242, 252) !important;
-    border-color: rgb(241, 242, 252) !important;
-    color: #3a87ad;
-    /*padding-top: 5px;*/
-  }
+  background-color: rgb(241, 242, 252) !important;
+  border-color: rgb(241, 242, 252) !important;
+  color: #3a87ad;
+  /*padding-top: 5px;*/
+}
 
-  .bg-emerald {
-    background-color: #2ecc71 !important;
+.bg-emerald {
+  background-color: #2ecc71 !important;
 }
 
 .bg-alizarin {
-    background-color: #e74c3c !important;
+  background-color: #e74c3c !important;
 }
 
 .bg-wisteria {
-    background-color: #8e44ad!important;
+  background-color: #8e44ad !important;
 }
 
 .bg-greensea {
-    background-color: #16a085!important;
+  background-color: #16a085 !important;
 }
 
 .bg-pumpkin {
-    background-color: #d35400!important;
+  background-color: #d35400 !important;
 }
 
 .accordion .list-group-item {
-    border: 0;
-    background-color: transparent;
-    padding: .25rem;
-    font-size: 12px;
-    text-transform: uppercase !important;
-  }
+  border: 0;
+  background-color: transparent;
+  padding: .25rem;
+  font-size: 12px;
+  text-transform: uppercase !important;
+}
 
-  .card-body a {
-    color: #fff;
-    font-size: 15px;
-  }
-  
-  .card-body a:hover {
+.card-body a {
+  color: #fff;
+  font-size: 15px;
+  &:hover {
     color: #fff;
     text-decoration: none;
   }
+}
 
+a {
+  &:hover, &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+}
 
- /*  Custom Scroll */
+#accordion {
+  .panel {
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 15px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: .25rem;
+  }
+  .panel-heading {
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+  }
+  h4.panel-title {
+    margin-bottom: 0;
+  }
+  .panel-title a {
+    display: block;
+    padding: 12px 15px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f81ac1;
+    //border: 1px solid rgba(0,0,0,.125);
+    //box-shadow: 0 0 10px rgba(0,0,0,.05);
+    position: relative;
+    transition: all 0.5s ease 0s;
+    //box-shadow: 0 1px 2px rgba(43,59,93,0.30);
+    &.collapsed {
+      box-shadow: none;
+      color: #676767;
+      // box-shadow: 0 1px 2px rgba(43,59,93,0.30);
+   
+    }
+    &:before {
+      content: "\f067";
+      font-family: "Font Awesome 5 Free";
+      width: 25px;
+      height: 25px;
+      line-height: 28px;
+      font-size: 15px;
+      font-weight: 900;
+      color: #f81ac1;
+      text-align: center;
+      position: absolute;
+      top: 8px;
+      right: 15px;
+      transform: rotate(135deg);
+      transition: all 0.3s ease 0s;
+    }
+    &.collapsed:before {
+      content: "\f067";
+      font-family: "Font Awesome 5 Free";
+      width: 25px;
+      height: 25px;
+      line-height: 28px;
+      font-size: 15px;
+      font-weight: 900;
+      color: #f81ac1;
+      text-align: center;
+      position: absolute;
+      top: 8px;
+      right: 15px;
+      transform: rotate(135deg);
+      transition: all 0.3s ease 0s;
+      color: #676767;
+      transform: rotate(0);
+    }
+    &:after {
+      content: "";
+      width: 1px;
+      height: 100%;
+      background: #ececec;
+      position: absolute;
+      top: 0;
+      right: 55px;
+    }
+  }
+  .panel-body {
+    padding: 0px 15px;
+    border: none;
+    font-size: 15px;
+    color: #615f5f;
+    line-height: 27px;
+  }
+}
+
+/*  Custom Scroll */
 
 /* Customize website's scrollbar like Mac OS
 Not supports in Firefox and IE */
 
 /* total width */
+
 body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar {
-    background-color:#fff;
-    width:16px
+  background-color: #fff;
+  width: 16px;
 }
 
 /* background of the scrollbar except button or resizer */
+
 body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-track {
-    background-color:#fff
+  background-color: #fff;
 }
 
 /* scrollbar itself */
-body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-thumb {
-    background-color:#eee;
-    border-radius:16px;
-    border:4px solid #fff
-}
 
+body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-thumb {
+  background-color: #eee;
+  border-radius: 16px;
+  border: 4px solid #fff;
+}
 
 /* total width */
-#nav-tabContent::-webkit-scrollbar, .contacts_div::-webkit-scrollbar, .table-responsive::-webkit-scrollbar{
-    background-color:#fff;
-    width:16px
+
+#nav-tabContent::-webkit-scrollbar, .contacts_div::-webkit-scrollbar, .table-responsive::-webkit-scrollbar {
+  background-color: #fff;
+  width: 16px;
 }
 
 /* background of the scrollbar except button or resizer */
-#nav-tabContent::-webkit-scrollbar,.contacts_div::-webkit-scrollbar,.table-responsive::-webkit-scrollbar {
-    background-color:#fff
+
+#nav-tabContent::-webkit-scrollbar, .contacts_div::-webkit-scrollbar, .table-responsive::-webkit-scrollbar {
+  background-color: #fff;
 }
 
 /* scrollbar itself */
-#nav-tabContent::-webkit-scrollbar, .contacts_div::-webkit-scrollbar, .table-responsive::-webkit-scrollbar{
-    background-color:#eee;
-    border-radius:16px;
-    border:4px solid #fff
+
+#nav-tabContent::-webkit-scrollbar, .contacts_div::-webkit-scrollbar, .table-responsive::-webkit-scrollbar {
+  background-color: #eee;
+  border-radius: 16px;
+  border: 4px solid #fff;
 }
-
-
 
 /* set button(top and bottom of the scrollbar) 
 body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-button,*/
-#rightMenu::-webkit-scrollbar, .messages::-webkit-scrollbar  {display:none}
 
-
-
+#rightMenu::-webkit-scrollbar, .messages::-webkit-scrollbar {
+  display: none;
+}
 
 /* Danilo */
 
- 
-  .pharma_table tr th{
-    font-size:11px;
+.pharma_table tr {
+  th {
+    font-size: 11px;
     padding: 5px;
   }
-  
-  .pharma_table tr td{
-    font-size:11px;
-    text-align:left;
+  td {
+    font-size: 11px;
+    text-align: left;
     padding: 5px;
   }
-  
-  .btn {
-    font-size: 12px !important;
-  }
-  
-  .table_flag{
-    height:13px;
-    width:19px;
-  }
-  
-  .align_center{
-    text-align: center !important;
-  }
-  
-  .nav-pills .nav-link.active{
+}
+
+.btn {
+  font-size: 12px !important;
+}
+
+.table_flag {
+  height: 13px;
+  width: 19px;
+}
+
+.align_center {
+  text-align: center !important;
+}
+
+.nav-pills .nav-link {
+  &.active {
     background-color: #28a745 !important;
-     color: #fff !important;
+    color: #fff !important;
     font-size: 12px;
+    &:hover {
+      background-color: #28a745 !important;
+    }
   }
-  
-  .nav-pills .nav-link.active:hover{
-    background-color: #28a745 !important;
-  }
-  
-  .nav-pills .nav-link{
-    font-size: 12px;
-    color: #000;
-    background-color:#f8f9fa !important;
-    margin-right: 5px;
-  }
-  
-  .nav-pills .nav-link:hover{
-    background-color:#e2e6ea !important;
+  font-size: 12px;
+  color: #000;
+  background-color: #f8f9fa !important;
+  margin-right: 5px;
+  &:hover {
+    background-color: #e2e6ea !important;
     color: #000;
   }
-  
-  .bold{
-    font-weight: bold !important;
-  }
-  
-  .center{
-    text-align: center;
-  }
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.center {
+  text-align: center;
+}
