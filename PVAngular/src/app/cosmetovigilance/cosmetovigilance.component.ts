@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ɵwhenRendered } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-cosmetovigilance',
@@ -11,5 +13,4 @@ export class CosmetovigilanceComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

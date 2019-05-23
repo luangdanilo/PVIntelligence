@@ -14,6 +14,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AdministrationComponent } from './administration/administration.component';
 import { NutrivigilanceComponent } from './nutrivigilance/nutrivigilance.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
