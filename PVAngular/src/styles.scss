@@ -24,7 +24,7 @@ html, body {
   padding: 10px 20px;
   border: 1px solid #dee2e6;
   border-top: none;
-  height: 96%;
+  height: 95%;
   background-color: #fff !important;
   overflow-y: scroll;
 }
@@ -314,6 +314,10 @@ body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-button,*/
 .table_flag {
   height: 13px;
   width: 19px;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+  background-color: #f8f8f8 !important;
 }
 
 .align_center {
