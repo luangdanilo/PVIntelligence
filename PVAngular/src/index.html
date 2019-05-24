@@ -31,14 +31,26 @@
       jQuery('#vmap').vectorMap({
         map: 'world_en',
         backgroundColor: '#fff',
+        borderOpacity: 0.25,
+        borderWidth: 1,
         color: '#ffffff',
-        hoverOpacity: 0.7,
-        selectedColor: '#666666',
         enableZoom: true,
-        showTooltip: true,
+        hoverOpacity: 0.7,
+        normalizeFunction: 'polynomial',
         scaleColors: ['#C8EEFF', '#006491'],
         values: sample_data,
-        normalizeFunction: 'polynomial'
+        selectedColor: '#666666',
+        selectedRegions: null,
+        showTooltip: true,
+        onRegionClick: function(element, code, region)
+        {
+            var message = 'You clicked "'
+                + region
+                + '" which has the code: '
+                + code.toUpperCase();
+
+            alert(message);
+        }
       });
     });
   </script>
@@ -46,3 +58,4 @@
 </body>
 
 </html>
+
