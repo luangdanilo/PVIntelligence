@@ -1,4 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files 
+
+@import "../node_modules/@progress/kendo-theme-bootstrap/scss/all.scss";
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";*/
 
 html, body {
   background-color: #EFEFEF;
@@ -28,6 +31,8 @@ html, body {
   background-color: #fff !important;
   overflow-y: scroll;
 }
+
+
 
 .nav-link {
   /*padding: 10px;*/
@@ -63,6 +68,15 @@ html, body {
   color: #555;
 }
 
+h4.m3{
+  padding-left: 0px;
+}
+
+#myTab{
+  border: 1px solid #ddd !important;
+  padding-left: 5px;
+}
+
 #dtHorizontal {
   width: 200em;
   overflow: scroll;
@@ -96,6 +110,10 @@ html, body {
 
 .bg-emerald {
   background-color: #2ecc71 !important;
+}
+
+.bg-default {
+  background-color: #525CA3 !important;
 }
 
 .bg-alizarin {
@@ -171,7 +189,7 @@ a {
     display: block;
     padding: 12px 15px;
     background: #fff;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
     color: #525CA3;
     //border: 1px solid rgba(0,0,0,.125);
@@ -238,6 +256,14 @@ a {
   }
 }
 
+.badge{
+  padding: 4px 4px 2px 3px !important;
+}
+
+.badge-info{
+  background-color: #6b40bb;
+}
+
 
 /*  Custom Scroll */
 
@@ -246,41 +272,31 @@ Not supports in Firefox and IE */
 
 /* total width */
 
-body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar {
+
+body::-webkit-scrollbar,
+#nav-tabContent::-webkit-scrollbar,
+.contacts_div::-webkit-scrollbar,
+.table-responsive::-webkit-scrollbar{
   background-color: #fff;
   width: 16px;
 }
 
 /* background of the scrollbar except button or resizer */
 
-body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-track {
+body::-webkit-scrollbar,
+#nav-tabContent::-webkit-scrollbar,
+.contacts_div::-webkit-scrollbar,
+.table-responsive::-webkit-scrollbar{
   background-color: #fff;
 }
 
 /* scrollbar itself */
 
-body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-thumb {
-  background-color: #eee;
-  border-radius: 16px;
-  border: 4px solid #fff;
-}
-
-/* total width */
-
-#nav-tabContent::-webkit-scrollbar, .contacts_div::-webkit-scrollbar, .table-responsive::-webkit-scrollbar {
-  background-color: #fff;
-  width: 16px;
-}
-
-/* background of the scrollbar except button or resizer */
-
-#nav-tabContent::-webkit-scrollbar, .contacts_div::-webkit-scrollbar, .table-responsive::-webkit-scrollbar {
-  background-color: #fff;
-}
-
-/* scrollbar itself */
-
-#nav-tabContent::-webkit-scrollbar, .contacts_div::-webkit-scrollbar, .table-responsive::-webkit-scrollbar {
+body::-webkit-scrollbar,
+#nav-tabContent::-webkit-scrollbar,
+.contacts_div::-webkit-scrollbar,
+.table-responsive::-webkit-scrollbar
+{
   background-color: #eee;
   border-radius: 16px;
   border: 4px solid #fff;
