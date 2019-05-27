@@ -11,5 +11,4 @@ export class MedicalDeviceVigilanceComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
