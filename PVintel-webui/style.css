@@ -5,23 +5,33 @@ CSS Pretty Print
 	 */
 }
 
-#body {
-    padding-bottom: 60px;
-    /* Height of the footer */
-    height: 83%;
-}
+html, body {
+    background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
+    /*font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif !important;*/
+    font-family: "Open Sans", Helvetica, Verdana, Tahoma, sans-serif !important;
+    font-size: 0.95rem;
+    line-height: 1.42857143;
+    color: #000;
+    height: 100% !important;
+    width: 100%;
+  }
 
+  #body {
+    padding-bottom:60px;   /* Height of the footer */
+    height: 79%;
+}
 
 #footer {
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    bottom:0;
+    width:100%;
     height: 45px;
     padding: 15px;
     text-align: center;
     color: #fff !important;
 }
-
 
 .bg-darkblue {
     background-color: #525ca3;
@@ -38,6 +48,10 @@ CSS Pretty Print
         float: right;
         color: #fff;
         margin-right: 10px;
+    }
+
+    .header .svg-inline--fa.fa-w-16, .footer .svg-inline--fa.fa-w-16{
+        font-size:1em !important;
     }
 
 .banner {
@@ -75,12 +89,21 @@ CSS Pretty Print
     text-transform: uppercase;
 }
 
-.navigation {
-    float: right;
+#titleandnav .row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  #titleandnav div.col-md-8{
+      padding: 15px 0px;
+  }
+
+.navigation .navbar-nav .nav-item .nav-link {
+    color: #555 !important;
+    font-size: 13px !important;
 }
 
-.navigation a {
-    color: #555;
+.navigation .navbar-nav .active a {
+    border-bottom: 4px solid #525ca3;
 }
 
 .ul {
@@ -113,6 +136,10 @@ CSS Pretty Print
     color: #525ca3;
 }
 
+.navbar{
+    padding:0px 0px !important;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #fff !important;
     letter-spacing: 0.8px;
@@ -127,7 +154,7 @@ CSS Pretty Print
 
 .navbar-light .navbar-nav .nav-item.active > .nav-link {
     font-weight: 600;
-    font-size: 15px !important;
+    font-size: 15px ;
     background-color: rgba(255, 255, 255, .2);
 }
 
@@ -150,10 +177,6 @@ a.grid_link {
     color: #525aa5;
 }
 
-.bg-darkblue {
-    background-color: #13688c;
-    color: #fff;
-}
 
 .bg-green {
     background-color: #adb510;
@@ -352,6 +375,10 @@ a.grid_link {
     overflow-y: scroll;
 }
 
+.contacts_div .card{
+    border: 0px !important;
+}
+
 .tile {
     color: #fff;
     width: 152px;
@@ -369,7 +396,7 @@ a.grid_link {
 }
 
 .tile div i {
-    font-size: 50px;
+    font-size: 50px !important;
 }
 
 .yg {
@@ -435,4 +462,45 @@ a.grid_link {
 .svg-inline--fa.fa-w-16,
 .svg-inline--fa.fa-w-18 {
     font-size: 3em;
+}
+
+
+
+
+
+
+body::-webkit-scrollbar,
+#nav-tabContent::-webkit-scrollbar,
+.contacts_div::-webkit-scrollbar,
+.table-responsive::-webkit-scrollbar{
+  background-color: #fff;
+  width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+
+body::-webkit-scrollbar,
+#nav-tabContent::-webkit-scrollbar,
+.contacts_div::-webkit-scrollbar,
+.table-responsive::-webkit-scrollbar{
+  background-color: #fff;
+}
+
+/* scrollbar itself */
+
+body::-webkit-scrollbar,
+#nav-tabContent::-webkit-scrollbar,
+.contacts_div::-webkit-scrollbar,
+.table-responsive::-webkit-scrollbar
+{
+  background-color: #eee;
+  border-radius: 16px;
+  border: 4px solid #fff;
+}
+
+/* set button(top and bottom of the scrollbar) 
+body::-webkit-scrollbar, .workflow_content::-webkit-scrollbar-button,*/
+
+#rightMenu::-webkit-scrollbar, .messages::-webkit-scrollbar {
+  display: none;
 }
