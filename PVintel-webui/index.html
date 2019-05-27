@@ -1,0 +1,344 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PV Intell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="/assets/css/bootstrap/bootstrap.min.css" />
+    <link href="/assets/css/kendo-bootstrap/kendo.bootstrap-v4.css" rel="stylesheet" />
+    <link href="/assets/css/kendo-bootstrap/kendo.bootstrap.css" rel="stylesheet" />
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jszip.min.js"></script>
+    <script src="/assets/js/kendo/kendo.all.min.js"></script>
+    <script src="/assets/js/kendo/kendo.core.min.js"></script>
+    <script src="/assets/js/fontawesome/all.js"></script>
+    <script src="/assets/js//bootstrap/popper.js"></script>
+    <script src="/assets/js//bootstrap/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <!--[if lt IE 9]>
+    <script src="/assets/js/html5shiv.js"></script>
+    <script src="/assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+    <body class="d-flex flex-column h-100">
+        <header>
+            <div class="header">
+                <div>
+                    <!--<i class="fas fa-envelope"></i> info@xtensa.com.ph &nbsp;&nbsp;&nbsp;&nbsp;-->
+                    <i class="fas fa-info-circle"></i> User Guide &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fas fa-cog"></i> Settings &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fas fa-search"></i> Search
+                </div>
+            </div>
+            <div id="titleandnav">
+                <div class="banner row">
+                    <div class="title col-md-4">
+                        <img src="assets/img/pvintel.png" class="float-left" />
+                        <div class="titletext">
+                            <h1>Safety Regulatory Intelligence</h1>
+                            <font>Sharepoint Site</font>
+                        </div>
+                    </div>
+                    <div class="navigation col-md-8">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav float-right">
+                                    <li class="nav-item active">
+                                        <a class="nav-link text-uppercase font-weight-bold" [routerLink]="['/home']">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-uppercase font-weight-bold text-black" [routerLink]="['/pharmacovigilance']" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Pharmacovigilance
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase font-weight-bold text-black" [routerLink]="['/prac']">PRAC</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase font-weight-bold text-black" [routerLink]="['/medical-device-vigilance']">Medical Device Vigilance</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase font-weight-bold text-black" [routerLink]="['/cosmetovigilance']">Cosmetovigilance</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase font-weight-bold text-black" [routerLink]="['/nitrivigilance']">Nutrivigilance</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase font-weight-bold text-black" [routerLink]="['/otc']">OTC</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase font-weight-bold text-black" [routerLink]="['/regulatory-text']">Regulatory Text</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase font-weight-bold text-black" [routerLink]="['/dashboard']">Dashboard</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase font-weight-bold text-black" [routerLink]="['/administration']">Administration</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </nav>
+       
+                    </div>
+                </div>
+            </div>
+        </header>
+            <main role="main" class="main">
+                <div class="container-fluid">
+                    <div class="m-3 h-100">
+                        <div class="row h-100">
+
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-header">
+                                        Safety Regulatory Intelligence Areas
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="yg tile">
+                                            <div>
+                                                <i class="fas fa-table"></i>
+                                            </div>
+                                            Pharmacovigilance
+                                        </div>
+
+                                        <div class="g tile">
+                                            <div>
+                                                <i class="fas fa-first-aid"></i>
+                                            </div>
+                                            PRAC
+                                        </div>
+
+                                        <div class="vio tile">
+                                            <div>
+                                                <i class="fas fa-notes-medical"></i>
+                                            </div>
+                                            Medical Device Vigilance
+                                        </div>
+
+                                        <div class="pink tile">
+                                            <div>
+                                                <i class="fas fa-smile-beam"></i>
+                                            </div>
+                                            Cosmetovigilance
+                                        </div>
+
+                                        <div class="maroon tile">
+                                            <div>
+                                                <i class="fas fa-leaf"></i>
+                                            </div>
+                                            Nutrivigilance
+                                        </div>
+
+                                        <div class="db tile">
+                                            <div>
+                                                <i class="fas fa-file-medical-alt"></i>
+                                            </div>
+                                            OTC
+                                        </div>
+
+                                        <div class="brown tile">
+                                            <div>
+                                                <i class="fas fa-capsules"></i>
+                                            </div>
+                                            Regulatory Texts
+                                        </div>
+
+                                        <div class="blue tile">
+                                            <div>
+                                                <i class="fas fa-chart-line"></i>
+                                            </div>
+                                            Dashboard
+                                        </div>
+
+                                        <div class="sb tile">
+                                            <div>
+                                                <i class="fas fa-user-shield"></i>
+                                            </div>
+                                            Administration
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="card mb-3">
+                                    <div class="card-header">
+                                        Safety Regulatory Intelligence Mission
+                                    </div>
+                                    <div class="card-body">
+                                        <!--<h5 class="card-title">Special title treatment</h5>-->
+                                        <p class="card-text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                        </p>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card mb-3">
+                                    <div class="card-header">
+                                        Headlines & Updates in Regulatory Intelligence
+                                    </div>
+                                    <div class="card-body">
+                                        <!--<h5 class="card-title">Special title treatment</h5>-->
+                                        <p class="card-text">You are not following any communities</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+
+                                <div class="card mb-3">
+                                    <div class="card-header">
+                                        External Presentations
+                                    </div>
+                                    <div class="card-body">
+                                        <!--<h5 class="card-title">Special title treatment</h5>-->
+                                        <p class="card-text">Global Links</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+
+                                <div class="card yg mb-3" style="color:#fff; border-radius: 0px;">
+                                    <div class="card-body">
+                                        <img src="assets/img/followIcon.png" /> Follow Community
+                                    </div>
+                                </div>
+
+                                <div class="card mb-3">
+                                    <div class="card-header">
+                                        External Presentations
+                                    </div>
+                                    <div class="card-body">
+                                        <!--<h5 class="card-title">Special title treatment</h5>-->
+                                        <ul>
+                                            <li>Tools and System</li>
+                                            <li>Other Quality Tools</li>
+                                            <li>Tools and System</li>
+                                            <li>Other Quality Tools</li>
+                                        </ul>
+                                        <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 h-100">
+                                <div class="contacts_div ">
+                                    <h5>Contacts</h5>
+                                    <div class="card mb-3" id="contacts">
+                                        <!--<div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>-->
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <img src="assets/img/d.jpg">
+                                                <div class="c_details">
+                                                    <strong>Joge Lucky</strong><br />
+                                                    <font>Art director, Movie Cut</font>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img src="assets/img/b.jpg">
+                                                <div class="c_details">
+                                                    <strong>Folisise Chosielie</strong><br />
+                                                    <font>Musician, Player</font>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img src="assets/img/c.jpg">
+                                                <div class="c_details">
+                                                    <strong>Aron Gonzalez</strong><br />
+                                                    <font>Designer</font>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img src="assets/img/2.jpg">
+                                                <div class="c_details">
+                                                    <strong>Amanda Ramirez</strong><br />
+                                                    <font>Writter, Mag Editor</font>
+                                                </div>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <img src="assets/img/1.jpg">
+                                                <div class="c_details">
+                                                    <strong>Joge Lucky</strong><br />
+                                                    <font>Art director, Movie Cut</font>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img src="assets/img/3.jpg">
+                                                <div class="c_details">
+                                                    <strong>Folisise Chosielie</strong><br />
+                                                    <font>Musician, Player</font>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img src="assets/img/6.jpg">
+                                                <div class="c_details">
+                                                    <strong>Aron Gonzalez</strong><br />
+                                                    <font>Designer</font>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img src="assets/img/7.jpg">
+                                                <div class="c_details">
+                                                    <strong>Amanda Ramirez</strong><br />
+                                                    <font>Writter, Mag Editor</font>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <img src="assets/img/9.jpg">
+                                                <div class="c_details">
+                                                    <strong>Joge Lucky</strong><br />
+                                                    <font>Art director, Movie Cut</font>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer mt-auto py-3 bg-darkblue">
+                <div class="text-center text-white">
+                    Made with <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i>️ by Xtensa INC.
+                </div>
+            </footer>
+            <script>
+                $(document).ready(function () {
+                    // Add minus icon for collapse element which is open by default
+                    $(".collapse.show").each(function () {
+                        $(this).prev(".card-header li").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+                    });
+        
+                    // Toggle plus minus icon on show hide of collapse element
+                    $(".collapse").on('show.bs.collapse', function () {
+                        $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+                    }).on('hide.bs.collapse', function () {
+                        $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+                    });
+                });
+            </script>
+
+        </body>
+</html>
