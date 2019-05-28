@@ -177,6 +177,22 @@ a.grid_link {
     text-decoration: none;
 }
 
+#myTab {
+    border: 1px solid #ddd !important;
+    padding-top: 5px;
+}
+
+#nav-tabContent {
+    padding: 10px 20px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    height: 95%;
+    background-color: #fff !important;
+    overflow-y: scroll;
+  }
+  
+  
+
 .text-darkblue {
     color: #525aa5;
 }
