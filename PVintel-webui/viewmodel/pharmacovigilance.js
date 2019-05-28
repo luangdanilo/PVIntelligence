@@ -1,0 +1,3 @@
+﻿var sidePanelVM = kendo.observable({
+   
+});

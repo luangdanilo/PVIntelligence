@@ -94,7 +94,7 @@ html, body {
     margin-left: 0 !important;
   }
   #titleandnav div.col-md-8{
-      padding: 15px 0px;
+      padding: 20px 0px;
   }
 
 .navigation .navbar-nav .nav-item .nav-link {
@@ -176,6 +176,22 @@ a.grid_link {
     color: #fff;
     text-decoration: none;
 }
+
+#myTab {
+    border: 1px solid #ddd !important;
+    padding-top: 5px;
+}
+
+#nav-tabContent {
+    padding: 10px 20px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    height: 95%;
+    background-color: #fff !important;
+    overflow-y: scroll;
+  }
+  
+  
 
 .text-darkblue {
     color: #525aa5;
