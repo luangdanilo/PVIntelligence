@@ -550,7 +550,9 @@ ul.timeline > li:before {
     z-index: 400;
 }
 
-
+.table-striped tbody tr:nth-of-type(odd){
+    background-color: #f4f4f4;
+}
 
 
 body::-webkit-scrollbar,
