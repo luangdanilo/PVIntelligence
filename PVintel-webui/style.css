@@ -6,7 +6,7 @@ CSS Pretty Print
 }
 
 html, body {
-    background-color: #EFEFEF;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
     /*font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif !important;*/
@@ -285,6 +285,10 @@ a.grid_link {
     background-color: #525CA3 !important;
 }
 
+.card{
+    border:1px solid #e9e9e9;
+}
+
 .card-body a {
     color: #fff;
     font-size: 15px;
@@ -400,7 +404,7 @@ a.grid_link {
     overflow: hidden;
     margin: 5px 10px;
     float: left;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 .tile div {
@@ -465,8 +469,26 @@ a.grid_link {
         color: #777;
     }
 
+    .c_details .svg-inline--fa.fa-w-16{
+        font-size: 7px !important;
+        margin-left: 10px;
+    }
+
+    .online{
+        color: #70cd2f !important;
+    }
+
+    .away{
+        color: #e4ad3f !important;
+    }
+
+    .offline{
+        color: #c5cedc !important; 
+    }
+
 .list-group-item {
-    border: 0;
+    border:0px;
+    /*border: 1px solid #f4f4f4;*/
 }
 
 .svg-inline--fa.fa-w-20,
