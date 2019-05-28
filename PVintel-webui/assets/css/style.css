@@ -19,7 +19,7 @@ html, body {
   }
 
   #body {
-    padding-bottom:60px;   /* Height of the footer */
+    padding-bottom:30px;   /* Height of the footer */
     height: 79%;
 }
 
@@ -180,6 +180,7 @@ a.grid_link {
 #myTab {
     border: 1px solid #ddd !important;
     padding-top: 5px;
+    padding-left: 5px;
 }
 
 #nav-tabContent {
