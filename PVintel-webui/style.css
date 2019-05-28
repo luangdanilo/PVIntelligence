@@ -100,10 +100,13 @@ html, body {
 .navigation .navbar-nav .nav-item .nav-link {
     color: #555 !important;
     font-size: 13px !important;
+    padding-left: 10px;
+    padding-right: 9px;
 }
 
 .navigation .navbar-nav .active a {
     border-bottom: 4px solid #525ca3;
+    
 }
 
 .ul {
@@ -139,6 +142,7 @@ html, body {
 .navbar{
     padding:0px 0px !important;
 }
+
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff !important;
@@ -245,12 +249,17 @@ a.grid_link {
     width: 160px;
     padding: 4rem 0 !important;
 }
-
+/*
 .bg-blueopal {
     background-color: #d9edf7 !important;
     border-color: #bce8f1 !important;
     color: #3a87ad;
-}
+}*/
+
+.bg-blueopal {
+    background-color: rgb(241, 242, 252) !important;
+    border-color: rgb(241, 242, 252) !important;
+  }
 
 .bg-emerald {
     background-color: #2ecc71 !important;
@@ -270,6 +279,10 @@ a.grid_link {
 
 .bg-pumpkin {
     background-color: #d35400 !important;
+}
+
+.bg-default {
+    background-color: #525CA3 !important;
 }
 
 .card-body a {
