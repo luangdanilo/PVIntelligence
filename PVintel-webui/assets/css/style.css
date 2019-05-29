@@ -170,8 +170,10 @@ html, body {
     border-bottom: 4px solid #525ca3 !important;
 }
 
-.nav-link {
-    color: #157ab5 !important;
+
+
+ul.nav .nav-link {
+    color: #333 !important;
 }
 
 a:hover.grid_link,
@@ -418,7 +420,7 @@ a.grid_link {
 
 .tile {
     color: #fff;
-    width: 152px;
+    width: 153.3px;
     height: 155px;
     text-align: center;
     overflow: hidden;
@@ -510,6 +512,14 @@ a.grid_link {
     border:0px;
     /*border: 1px solid #f4f4f4;*/
 }
+
+.badge{
+    padding: 4px 4px 2px 3px !important;
+  }
+.badge-info{
+    background-color: #6b40bb;
+  }  
+
 
 .svg-inline--fa.fa-w-20,
 .svg-inline--fa.fa-w-12,
